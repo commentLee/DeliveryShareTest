@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="DeliveryShare.MyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:DeliveryShare"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MyPage"
+    d:DesignHeight="450"
+    d:DesignWidth="200"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{StaticResource sideBarColor}">
+        <Button
+            Click="Button_Click"
+            Content="LOGIN"
+            Style="{StaticResource BrightButtonStyle}" />
+
+        <WrapPanel>
+            <Label Content="현재위치: " Style="{StaticResource BrightLabelStyle}" />
+            <Label Content="XXX호관" Style="{StaticResource BrightLabelStyle}" />
+            <Button Content="위치변경" Style="{StaticResource BrightButtonStyle}" />
+        </WrapPanel>
+        <WrapPanel>
+            <Label Content="신뢰점수:" Style="{StaticResource BrightLabelStyle}" />
+            <Label Content="99점" Style="{StaticResource BrightLabelStyle}" />
+        </WrapPanel>
+        <Expander Header="작성한 글 목록">
+            <StackPanel>
+                <Label Content="글 1" Style="{StaticResource BrightLabelStyle}" />
+            </StackPanel>
+        </Expander>
+
+    </StackPanel>
+</Page>

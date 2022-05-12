@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="DeliveryShare.SamplePage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:DeliveryShare"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="SamplePage1"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource grayColor}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+
+        <Button
+            Grid.Column="0"
+            Content="직접 모집"
+            Click="Button_Click"
+            Style="{StaticResource DarkButtonStyle}" />
+        <Button
+            Grid.Column="1"
+            Content="음식 탐색"
+            Style="{StaticResource DarkButtonStyle}" />
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
+            <Label Content="NOW MATCHING!" Style="{StaticResource BrightLabelStyle}" />
+            <Label Content="new content" Style="{StaticResource matchingLabelStyle}"></Label>
+            <Label Content="new content" Style="{StaticResource matchingLabelStyle}"></Label>
+            <Label Content="new content" Style="{StaticResource matchingLabelStyle}"></Label>
+            <Label Content="new content" Style="{StaticResource matchingLabelStyle}"></Label>
+        </StackPanel>
+    </Grid>
+</Page>
