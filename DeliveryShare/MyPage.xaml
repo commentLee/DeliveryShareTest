@@ -18,7 +18,7 @@
 
         <WrapPanel>
             <Label Content="현재위치: " Style="{StaticResource BrightLabelStyle}" />
-            <Label Content="XXX호관" Style="{StaticResource BrightLabelStyle}" />
+            <Label Content="aaa호관" Style="{StaticResource BrightLabelStyle}" />
             <Button Content="위치변경" Style="{StaticResource BrightButtonStyle}" />
         </WrapPanel>
         <WrapPanel>
