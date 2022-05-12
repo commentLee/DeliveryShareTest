@@ -23,7 +23,7 @@
         </WrapPanel>
         <WrapPanel>
             <Label Content="신뢰점수:" Style="{StaticResource BrightLabelStyle}" />
-            <Label Content="99점" Style="{StaticResource BrightLabelStyle}" />
+            <Label Content="111점" Style="{StaticResource BrightLabelStyle}" />
         </WrapPanel>
         <Expander Header="작성한 글 목록">
             <StackPanel>
