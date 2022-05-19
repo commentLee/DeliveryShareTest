@@ -12,10 +12,11 @@
 
     <StackPanel Background="{StaticResource sideBarColor}">
         <Button
+            
             Click="Button_Click"
             Content="LOGIN"
             Style="{StaticResource BrightButtonStyle}" />
-
+        <Button Content="dddddd" Style="{StaticResource BrightButtonStyle}"></Button>
         <WrapPanel>
             <Label Content="현재위치: " Style="{StaticResource BrightLabelStyle}" />
             <Label Content="aaa호관" Style="{StaticResource BrightLabelStyle}" />
@@ -30,6 +31,5 @@
                 <Label Content="글 1" Style="{StaticResource BrightLabelStyle}" />
             </StackPanel>
         </Expander>
-
     </StackPanel>
 </Page>

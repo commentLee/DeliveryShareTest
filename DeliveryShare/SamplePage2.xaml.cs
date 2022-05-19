@@ -27,7 +27,7 @@ namespace DeliveryShare
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new SamplePage1());
+            this.NavigationService.Navigate(new FoodMainPage());
         }
     }
 }

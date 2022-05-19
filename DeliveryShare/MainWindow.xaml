@@ -9,7 +9,7 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <!--<Grid>
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition MaxWidth="300" />
             <ColumnDefinition Width="3*" />
@@ -17,12 +17,12 @@
 
         <Frame Grid.Column="0" Source="MyPage.xaml" />
         <Frame
-            x:Name="MainFrame"
+            x:Name="mainFrame"
             Grid.Column="1"
-            Source="SamplePage1.xaml" />
-    </Grid>-->
+            Source="FoodMainPage.xaml" />
+    </Grid>
 
-    <DockPanel>
+    <!--<DockPanel>
         <Frame
             MaxWidth="300"
             DockPanel.Dock="Left"
@@ -32,8 +32,8 @@
             x:Name="mainFrame"
             DockPanel.Dock="Right"
             NavigationUIVisibility="Hidden"
-            Source="SamplePage1.xaml" />
-    </DockPanel>
+            Source="SamplePage2.xaml" />
+    </DockPanel>-->
 
 
 </Window>

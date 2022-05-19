@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace DeliveryShare
 {
     /// <summary>
-    /// SamplePage1.xaml에 대한 상호 작용 논리
+    /// FoodMainPage.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class SamplePage1 : Page
+    public partial class FoodMainPage : Page
     {
-        public SamplePage1()
+        public FoodMainPage()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new SamplePage2());
-            
         }
     }
 }
