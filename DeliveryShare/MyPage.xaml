@@ -19,7 +19,7 @@
         <Button Content="dddddd" Style="{StaticResource BrightButtonStyle}"></Button>
         <WrapPanel>
             <Label Content="현재위치: " Style="{StaticResource BrightLabelStyle}" />
-            <Label Content="aaa호관" Style="{StaticResource BrightLabelStyle}" />
+            <Label Content="bbb호관" Style="{StaticResource BrightLabelStyle}" />
             <Button Content="위치변경" Style="{StaticResource BrightButtonStyle}" />
         </WrapPanel>
         <WrapPanel>
