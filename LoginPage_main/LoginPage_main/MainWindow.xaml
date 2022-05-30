@@ -1,0 +1,95 @@
+﻿<Window x:Class="LoginPage_main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginPage_main"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content="로그인"
+               Grid.Row="1"
+               Grid.Column="1"
+               FontSize="40"
+               HorizontalAlignment="Center"/>
+
+        <Border Grid.Row="3"
+                Grid.Column="1"
+                BorderThickness="1.3"
+                BorderBrush="#013DC4"
+                Margin="10,5,10,5"
+                CornerRadius="13">
+
+            <TextBox x:Name="IDTextBox"
+                     BorderThickness="0"
+                     Margin="120,5,5,5"
+                     TextAlignment="Left"
+                     FontSize="20"
+                     VerticalAlignment="Center"/>
+        </Border>
+
+        <TextBlock Grid.Row="3"
+                   Grid.Column="1"
+                   Text="아이디"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Margin="20,20,520,20"/>
+
+        <Border Grid.Row="4"
+                Grid.Column="1"
+                BorderThickness="1.3"
+                BorderBrush="#013DC4"
+                Margin="10,5,10,5"
+                CornerRadius="13">
+
+            <TextBox x:Name="IPTextBox"
+                     BorderThickness="0"
+                     Margin="120,5,5,5"
+                     TextAlignment="Left"
+                     FontSize="20"
+                     VerticalAlignment="Center"/>
+        </Border>
+
+        <TextBlock Grid.Row="4"
+                   Grid.Column="1"
+                   Text="비밀번호"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   Margin="20,20,520,20"/>
+
+        <Button Grid.Row="5"
+                Grid.Column="1"
+                Content="로그인"
+                FontSize="20"
+                x:Name="Login_Btn"
+                Click="Login_Btn_Click"
+                Margin="230,10,230,10"
+                Background="#013DC4"
+                Foreground="white"
+                BorderBrush="#013DC4">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="17"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+                 
+    </Grid>
+</Window>

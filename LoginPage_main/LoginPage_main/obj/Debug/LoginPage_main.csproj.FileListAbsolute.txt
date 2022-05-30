@@ -1,0 +1,16 @@
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\bin\Debug\LoginPage_main.exe.config
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\bin\Debug\LoginPage_main.exe
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\bin\Debug\LoginPage_main.pdb
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.csproj.AssemblyReference.cache
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.csproj.SuggestedBindingRedirects.cache
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\MainWindow.g.cs
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\App.g.cs
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main_MarkupCompile.cache
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main_MarkupCompile.lref
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\MainWindow.baml
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.g.resources
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.Properties.Resources.resources
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.csproj.GenerateResource.cache
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.csproj.CoreCompileInputs.cache
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.exe
+C:\Users\happy\Desktop\windowsprogramming\윈프 팀플\최종\LoginPage_main\LoginPage_main\obj\Debug\LoginPage_main.pdb
